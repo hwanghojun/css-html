@@ -1,0 +1,36 @@
+PIXAbay 사진무료다운
+<head> 
+<h1~6> 단계별 제목  
+<head>  <meta charset="utf-8"> 글자 깨짐방지 (name="description" content="생활코딩의 소개자료")
+                      (name="keywords" content="코딩,coding,생활코딩,프로그래밍,html,css,javascript")
+                      (name="author" content="egoing(닉네임)")
+                      (http-http-equiv="refresh" content="30") 30초마다 새로고침
+                      (name="viewport" content="width=device-width, initial-scale=1.0") 모바일로 볼시 그장치와 너비가 자동으로 같아지도록!!  initial-scale=1.0이거는 줌 안한상태로 창을 초기창을 띄워라 
+                       <link> (rel="canonical" href="같은내용의 대표주소") 같은 내용의 페이지일경우 대표 주소로 설정된 그주소로 들어가짐 '내가 진짜야'
+<a href="파일이름"> 하이퍼링크
+<p> paragraph 단락
+<br>A forced line-break  줄바꿈
+<img> image 이미지 (src="사진파일이름") 사진파일 (width="숫자") 너비 (height="숫자") 높이
+                              (alt="사진 이미지")이미지가 깨졌을경우 텍스트에 줌
+
+<table>   표  (border="숫자") <thead> t는 table 약자 head
+ <td> 테이블 데이터   (td rowspan="2") 열 병합  (td colspan="3") 행 병합 <tr> 행 지정 
+
+<form>   사용자가 입력한 정보를 서버에 전송하는것  (action="서버주소 ") (autocomplete="on or off" 아이디 암호등 기억후 자동완성)
+
+<input type="text,password,submit(제출버튼),radio(체크동그라미 단일선택),checkbox (체크박스 다중선택),button, reset,hidden,number(숫자만min="",max="") "> 
+                   (name="이름") 서버에게 정보전달 꼭써야함 (value="문자") 기본값 문자가 입력창에 써져있으면 좋겠다 할때 쓰는것
+                   (checked)선택됨 표시 (placeholder="란안에 글자 적어두기" ex)id를 입력해주세요. 등 )
+                   (autofocus) 바로 id password 같은 적기란으로 포커스하기 
+                   (required) 필수옵션 꼭써야 제출되게하는것
+                   (pattern="[여기안에 사용가능한 문자 작성 ex.[a-zA-Z]] ")  ]뒤에.을붙이면 []수만큼충족후 점 수만큼모든문자사용가능, 뒤에+사용시 그 이상 사용가능
+
+<textarea> 텍스트 입력란이 여러줄 쓸수있는것 ex) 자기소개서 란 같은경우 (cols="50" rows="2") 박스 열 크기
+<select> 고르는 창 (name="color(고르는 종류)") 서버전달하는 이름 (multiple) 다중선택 ->컨트롤 누르고 선택 
+<option> 고르는 선택지 (value="red(선택지이름)") 
+<label> 이름표-> 누구의 것인지 이어주는것 (for="누구의것(same)") 
+<input> (id="누구의것(same)")
+<form> (method="get or post") ur 전달 방법 get은 ur에 표시 post는 ur에 숨겨서 표시 
+            (enctype="multipart/form-data") 파일이나 이미지를 서버로 전송할 경우 이방식
+
+

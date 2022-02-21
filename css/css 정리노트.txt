@@ -1,0 +1,13 @@
+css 정리노트
+ li{ } 선택자 (클래스 선택자)
+ <class=" " 반 묶음 여러번 나와야할 때 (태그선택자)
+ <id=" ">  학생 하나 ! 하나만나올때 (아이디 선택자)
+
+link 기본 링크
+visited 방문한 링크
+hover: 마우스커서 올렸을 떄
+active: 링크 활성화할 때
+focus: 탭키누르면 포커스되는것처럼 포커스 됐을때
+
+font face generator : 한국어폰트
+font.google.com
